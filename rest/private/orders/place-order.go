@@ -10,16 +10,17 @@ import (
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 type RequestForPlaceOrder struct {
-	ClientID          string  `json:"clientId,omitempty"`
-	Type              string  `json:"type"`
-	Market            string  `json:"market"`
-	Side              string  `json:"side"`
-	Price             float64 `json:"price"`
-	Size              float64 `json:"size"`
-	ReduceOnly        bool    `json:"reduceOnly,omitempty"`
-	Ioc               bool    `json:"ioc,omitempty"`
-	PostOnly          bool    `json:"postOnly,omitempty"`
-	RejectOnPriceBand bool    `json:"rejectOnPriceBand,omitempty"`
+	ClientID                string  `json:"clientId,omitempty"`
+	Type                    string  `json:"type"`
+	Market                  string  `json:"market"`
+	Side                    string  `json:"side"`
+	Price                   float64 `json:"price"`
+	Size                    float64 `json:"size"`
+	ReduceOnly              bool    `json:"reduceOnly,omitempty"`
+	Ioc                     bool    `json:"ioc,omitempty"`
+	PostOnly                bool    `json:"postOnly,omitempty"`
+	RejectOnPriceBand       bool    `json:"rejectOnPriceBand,omitempty"`
+	ExternalReferralProgram string  `json:"externalReferralProgram,omitempty"`
 }
 
 type ResponseForPlaceOrder struct {
