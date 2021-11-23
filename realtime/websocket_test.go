@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-numb/go-ftx/realtime"
+	"github.com/JeyDev310/go-ftx/realtime"
 )
 
 func TestConnect(t *testing.T) {

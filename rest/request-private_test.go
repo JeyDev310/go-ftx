@@ -7,18 +7,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-numb/go-ftx/auth"
+	"github.com/JeyDev310/go-ftx/auth"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-numb/go-ftx/rest"
-	"github.com/go-numb/go-ftx/rest/private/account"
-	"github.com/go-numb/go-ftx/rest/private/fills"
-	"github.com/go-numb/go-ftx/rest/private/orders"
-	"github.com/go-numb/go-ftx/rest/private/spotmargin"
-	"github.com/go-numb/go-ftx/rest/private/subaccount"
-	"github.com/go-numb/go-ftx/rest/private/wallet"
-	"github.com/go-numb/go-ftx/types"
+	"github.com/JeyDev310/go-ftx/rest"
+	"github.com/JeyDev310/go-ftx/rest/private/account"
+	"github.com/JeyDev310/go-ftx/rest/private/fills"
+	"github.com/JeyDev310/go-ftx/rest/private/orders"
+	"github.com/JeyDev310/go-ftx/rest/private/spotmargin"
+	"github.com/JeyDev310/go-ftx/rest/private/subaccount"
+	"github.com/JeyDev310/go-ftx/rest/private/wallet"
+	"github.com/JeyDev310/go-ftx/types"
 )
 
 func TestURIEncode(t *testing.T) {
